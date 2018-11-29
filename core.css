@@ -3,7 +3,6 @@
   --bgImage: url("https://i.rafl.cf/0Rzip.png");
   --mainColor: #2e3e6b;
   --mainDarker: #202b4a;
-  --links: #5f4f7d;
 }
 
 /* main color */
@@ -253,15 +252,7 @@
   background-color: var(--mainColor) !important;
 }
 * {box-shadow: none !important;}
-/* LINKS */
-a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {color: var(--links) !important;}
-.messagesWrapper-3lZDfY a {
-    background: transparent !important;
-}
-.theme-dark .markup-2BOw-j a,
-.theme-dark .embedTitleLink-1Zla9e {
-    color: var(--links) !important;
-}
+
 /* wallpaper */
 .appMount-3VJmYg {
   background-position: center !important;
