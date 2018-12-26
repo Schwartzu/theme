@@ -95,7 +95,7 @@
 .bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6,
 .theme-light .container-2Thooq,
 .channels-Ie2l6A {
-  background: rgba(0,0,0,.1) !important;
+  background: rgba(0,0,0,0) !important;
 }
 /* dark */
 .theme-dark .guildsWrapper-5TJh6A,
@@ -288,6 +288,7 @@
   border: none;
   box-shadow: none;
 }
+
 /* SERVER ICONS */
 /*
 .guild-1EfMGQ,
@@ -312,6 +313,7 @@
     color: #fff !important;
 }
 */
+
 /* channel top bar */
 .titleWrapper-1l0xT9,
 .header-2o-2hj,
@@ -347,15 +349,12 @@
 .container-1UB9sr {border:none;}
 .theme-dark .wrapper-3WhCwL, .mention {padding: 0 7px 0 7px;}
 #bd-pub-button {background-color: #fff;color:var(--mainColor);font-weight: bold;}
-.theme-dark .membersGroup-v9BXpm,
-.nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1 {color: hsla(0,0%,100%,.7);}
 .nameMutedText-3Vj4bM, .nameMutedVoice-3oxyQZ {color: hsla(0,0%,100%,.3);}
 .iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H,.theme-dark .friendsOnline-_wi_fM, .theme-light .friendsOnline-_wi_fM {color: hsla(0,0%,100%,.85);}
 .theme-dark .embedInner-1-fpTo {border: none;}
 .theme-dark .isMentioned-N-h9aa {border-left: 4px solid #faa61a;}
 .isMentionedCozy-3isp7y:after {display: none;}
 .guildSeparator-1X4GQ1 {margin-left: -5px;}
-.theme-dark .guildSeparator-1X4GQ1:after {background: #fff;}
 .theme-dark .card-FDVird:before,
 .theme-dark .cardPrimaryEditable-3KtE4g[style*="background-color: rgb(114, 137, 218);"] {
   background: var(--mainColor) !important;
@@ -394,15 +393,19 @@
 }.theme-dark .search-results-wrap .search-result:after,
 .theme-dark .search-results-wrap .search-result:before {display: none;}
 .wrapper-3jrx9n {border-color: var(--mainColor);}
-#qs_directory {background: rgba(0,0,0,.35);color:#fff;border: none;}
 .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {background-color: var(--mainColor);}
 .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action:hover {background-color: var(--mainDarker);}
 .textAreaEdit-bNLDk3, .textAreaEnabled-3vQ5WZ, .textAreaEnabledNoAttach-1WxUwj, .textAreaForm-18s4EO {border-radius: 0;}
 .guild-1EfMGQ .avatar-small {border-radius: 50%;}
-.lookFilled-1Gx00P.colorGreen-29iAKY {color: #fff !important;}
 .theme-dark .accountBtnInner-sj5jLs {background-color: rgba(0,0,0,.35);}
 .jumpToPresentBar-9P20AM {border-radius: 50px;}
 .search-bar.search-bar-light {height:15px;}
 .chat-3bRxxu form {margin: 0;padding: 0 10px 0 10px;}
 .avatar-uploader-inner {background-color: transparent;}
 .theme-dark .avatar-uploader .remove-button {border: 1px solid #ee1111;border-radius: 6px;color: #ee1111 !important;padding: 10px;}
+
+
+/* Private Call */
+
+.video-1FfuMD {background-color: transparent;}
+.theme-dark .wrapper-29NfPK {background-color: rgba(0, 0, 0, 0.2);}
