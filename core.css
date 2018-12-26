@@ -238,8 +238,8 @@
 .theme-dark .search-results-wrap .search-result.expanded,
 .theme-dark .select-2TCrqx .is-disabled .Select-control,
 .theme-dark .markup-2BOw-j pre {border: none !important;}
-
 .theme-dark .isMentioned-N-h9aa {border-radius: 4px;}
+
 /* New messages notification */
 .newMessagesBar-mujexs {background-color: var(--mainColor);}
 .dismiss-SCAH9H {
@@ -251,7 +251,6 @@
   border-radius: 0 !important;
   background-color: var(--mainColor) !important;
 }
-* {box-shadow: none !important;}
 
 /* wallpaper */
 .appMount-3VJmYg {
@@ -406,6 +405,5 @@
 
 
 /* Private Call */
-
 .video-1FfuMD {background-color: transparent;}
 .theme-dark .wrapper-29NfPK {background-color: rgba(0, 0, 0, 0.2);}
