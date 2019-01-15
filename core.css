@@ -5,7 +5,12 @@
     --mainColor: #2e3e6b;
     --mainDarker: #202b4a;
 }
-  
+
+/* fix span flickering */
+html, span:not(.spinner-item) {
+	backface-visibility: hidden;
+}
+
 /* main color */
 .uploadModal-2ifh8j,
 .headerPlaying-j0WQBV,
